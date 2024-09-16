@@ -1,6 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的主页</title>
+    <style>
+        /* 基础样式 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
 
-http://120.77.31.153:8001
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
+        h1 {
+            text-align: center;
+            color: #333;
+        }
 
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
 
-http://120.77.31.153:8002
+        li {
+            margin: 10px 0;
+        }
+
+        a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #007BFF;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        a:hover {
+            background-color: #0056b3;
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 600px) {
+            a {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>欢迎来到我的主页</h1>
+        <ul>
+            <li><a href="http://120.77.31.153:8001/">jupyterlab</a></li>
+            <li><a href="http://120.77.31.153:8002/">wordpress</a></li>
+        </ul>
+    </div>
+</body>
+</html>
